@@ -1,5 +1,8 @@
 {
 	"description": "oauth app",
+	"scripts": {
+		"start": "node client.js & node authorizationServer.js & node protectedResource.js"
+	},
 	"dependencies": {
 		"express": "^4.13.1",
 		"sync-request": "^2.0.1",
